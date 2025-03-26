@@ -1,0 +1,40 @@
+{
+    "color": "#eeffee",
+    "deleted": {
+        "color":"#f54242",
+        "title": "Deleted Message",
+        "author": "From user:"
+    },
+    "updated": {
+        "color":"#ffe100",
+        "title": "Updated Message",
+        "author": "From user:",
+        "channel": "In channel:",
+        "oldcontent": "Old Content:",
+        "newcontent": "New Content:"
+    },
+    "created": {
+        "color":"#48f542",
+        "title": "Created Message",
+        "author": "From user:",
+        "channel": "In channel:",
+        "content": "Content:"
+    },
+    "welcome": {
+        "color": "#d66b7b",
+        "title": "Oh someone is entering the stage!",
+        "description": "Welcome on Liltea ! ",
+        "message": ":wave: **Welcome**  on **Liltea** ",
+        "thumbnail": "https://cdn.discordapp.com/attachments/798000000000000000/798000000000000000/798000000000000000.png",
+        "button":{
+            "rules": {
+                "label": "Rules",
+                "url": "https://discord.com/channels/1315311298782691348/1315349932386816162"
+            },
+            "announcements": {
+                "label": "Announcements",
+                "url": "https://discord.com/channels/1315311298782691348/1315347163420819547"
+            }
+        }
+    }
+}
