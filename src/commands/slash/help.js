@@ -8,9 +8,9 @@ const botui = JSON.parse(botdata);
 
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName('init')
+        .setName('help')
         .setDescription("Initialise le serveur"),
     run: async (client, interaction) => {
-        await interaction.reply("Le serveur a été initialisé avec succès !");
+        await interaction.reply("Help menu (soon)");
     },
 };
