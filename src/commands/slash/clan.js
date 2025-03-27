@@ -41,11 +41,11 @@ module.exports = {
                 const half = Math.ceil(clanData.members.length / 2);
                 const firstColumn = clanData.members
                     .slice(0, half)
-                    .map(member => `**${member.name}**`) // Include only the username
+                    .map(member => `**${member.name}**`) 
                     .join('\n');
                 const secondColumn = clanData.members
                     .slice(half)
-                    .map(member => `**${member.name}**`) // Include only the username
+                    .map(member => `**${member.name}**`) 
                     .join('\n');
 
                 embed.addFields(
